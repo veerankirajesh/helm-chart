@@ -8,6 +8,6 @@ spec:
     app: nginx
     demo: helm
   ports:
-    - protocol: TCP
-      port: 80    # service-port
-      targetPort: 80   # container-porton: v1 
+  - protocol: TCP
+    port: 80 #service-port
+    targetPort: 80 #container-port
